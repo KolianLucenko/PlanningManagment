@@ -7,6 +7,19 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlanningManagment", "Planni
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlanningManagment.Tests", "PlanningManagment.Tests\PlanningManagment.Tests.csproj", "{FC9D3824-712F-4E70-8EA5-D8EB01FF3022}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{5AA7633B-5B78-402D-ABC0-27D2F731E838}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{12449B94-370C-4D8C-B8EA-DFE89CC4B945}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Scripts\Deploy-AzureResourceGroup.ps1 = PublishScripts\Scripts\Deploy-AzureResourceGroup.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Templates", "Templates", "{00103388-C5B7-4111-87FA-0B0F6A890B76}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Templates\PlanningManagment.json = PublishScripts\Templates\PlanningManagment.json
+		PublishScripts\Templates\PlanningManagment.param.dev.json = PublishScripts\Templates\PlanningManagment.param.dev.json
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +37,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{12449B94-370C-4D8C-B8EA-DFE89CC4B945} = {5AA7633B-5B78-402D-ABC0-27D2F731E838}
+		{00103388-C5B7-4111-87FA-0B0F6A890B76} = {5AA7633B-5B78-402D-ABC0-27D2F731E838}
 	EndGlobalSection
 EndGlobal

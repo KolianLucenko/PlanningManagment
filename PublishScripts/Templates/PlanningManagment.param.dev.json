@@ -1,0 +1,29 @@
+{
+  "siteName": {
+    "value": "PlanningManagment"
+  },
+  "hostingPlanName": {
+    "value": "PlanningManagment"
+  },
+  "siteLocation": {
+    "value": "West Europe"
+  },
+  "sku": {
+    "value": "Free"
+  },
+  "workerSize": {
+    "value": "0"
+  },
+  "siteMode": {
+    "value": "Limited"
+  },
+  "computeMode": {
+    "value": "0"
+  },
+  "subscriptionId": {
+    "value": "45d81fde-0038-48f3-ba22-38af8ffc48c1"
+  },
+  "resourceGroup": {
+    "value": "Default-ApplicationInsights-CentralUS"
+  }
+}
