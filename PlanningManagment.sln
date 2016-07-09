@@ -20,6 +20,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Templates", "Templates", "{
 		PublishScripts\Templates\PlanningManagment.param.dev.json = PublishScripts\Templates\PlanningManagment.param.dev.json
 	EndProjectSection
 EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Database1", "..\Database1\Database1.sqlproj", "{D43C866B-44AB-4631-85AB-F8A1923BE0A1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -34,6 +36,12 @@ Global
 		{FC9D3824-712F-4E70-8EA5-D8EB01FF3022}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FC9D3824-712F-4E70-8EA5-D8EB01FF3022}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FC9D3824-712F-4E70-8EA5-D8EB01FF3022}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D43C866B-44AB-4631-85AB-F8A1923BE0A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D43C866B-44AB-4631-85AB-F8A1923BE0A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D43C866B-44AB-4631-85AB-F8A1923BE0A1}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{D43C866B-44AB-4631-85AB-F8A1923BE0A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D43C866B-44AB-4631-85AB-F8A1923BE0A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D43C866B-44AB-4631-85AB-F8A1923BE0A1}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
