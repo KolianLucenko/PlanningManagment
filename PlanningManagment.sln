@@ -20,7 +20,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Templates", "Templates", "{
 		PublishScripts\Templates\PlanningManagment.param.dev.json = PublishScripts\Templates\PlanningManagment.param.dev.json
 	EndProjectSection
 EndProject
-Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Database1", "..\Database1\Database1.sqlproj", "{D43C866B-44AB-4631-85AB-F8A1923BE0A1}"
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "PlanningManagmentDatabase", "..\Database1\PlanningManagmentDatabase.sqlproj", "{D43C866B-44AB-4631-85AB-F8A1923BE0A1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
