@@ -10,7 +10,7 @@ using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
 using PlanningManagment.Models;
 
-namespace PlanningManagment.Controllers
+namespace PlanningManagment.Controllers 
 {
     [Authorize]
     public class AccountController : Controller
