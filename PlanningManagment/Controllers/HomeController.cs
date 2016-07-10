@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using PlanningManagmentDataLayer.Services;
 
 namespace PlanningManagment.Controllers
 {
@@ -10,6 +11,7 @@ namespace PlanningManagment.Controllers
     {
         public ActionResult Index()
         {
+            UserService.GetUsers().Where(x => x.Name == "Коля");
             return View();
         }
 
