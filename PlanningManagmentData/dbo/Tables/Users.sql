@@ -1,5 +1,5 @@
 ﻿CREATE TABLE [dbo].[Users] (
-    [ID]       SMALLINT      IDENTITY (1, 1) NOT NULL,
+    [ID]       INT      IDENTITY (1, 1) NOT NULL,
     [Name]     VARCHAR (30)  NOT NULL,
     [Surname]  VARCHAR (30)  NOT NULL,
     [Sex]      VARCHAR (1)   NOT NULL,
