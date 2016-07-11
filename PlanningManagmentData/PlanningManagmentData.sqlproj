@@ -126,14 +126,5 @@
       <AnsiNulls>On</AnsiNulls>
       <QuotedIdentifier>On</QuotedIdentifier>
     </Build>
-    <Build Include="dbo\Tables\TaskStates.sql" />
-    <Build Include="dbo\Tables\TaskLabels.sql" />
-    <Build Include="dbo\Tables\TaskGroups.sql" />
-    <Build Include="dbo\Tables\TaskPriorities.sql" />
-    <Build Include="dbo\Tables\Tasks.sql" />
-    <Build Include="dbo\Tables\TaskUserMaps.sql" />
-  </ItemGroup>
-  <ItemGroup>
-    <RefactorLog Include="PlanningManagmentData.refactorlog" />
   </ItemGroup>
 </Project>
