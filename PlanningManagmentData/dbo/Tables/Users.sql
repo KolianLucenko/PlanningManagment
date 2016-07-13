@@ -7,6 +7,7 @@
     [Email]    VARCHAR (50)  NOT NULL,
     [Login]    NVARCHAR (50) NULL,
     [Password] NVARCHAR (50) NULL,
+    [IsConfirm] BIT NULL DEFAULT 0, 
     PRIMARY KEY CLUSTERED ([ID] ASC)
 );
 

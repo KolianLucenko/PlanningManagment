@@ -1,0 +1,19 @@
+﻿CREATE TABLE [dbo].[Tasks]
+(
+	[ID] INT NOT NULL PRIMARY KEY, 
+    [Name] VARCHAR(50) NOT NULL, 
+    [Description] NVARCHAR(MAX) NULL, 
+    [Priority] INT NOT NULL
+	FOREIGN KEY REFERENCES TaskPriorities(ID), 
+    [Label] INT NOT NULL
+	FOREIGN KEY REFERENCES TaskLabels(ID), 
+    [Group] INT NOT NULL
+	FOREIGN KEY REFERENCES TaskGroups(ID), 
+    [State] INT NOT NULL
+	FOREIGN KEY REFERENCES TaskStates(ID), 
+    [StartDate] DATETIME2 NULL, 
+    [EndDate] DATETIME2 NULL, 
+    [InsertedBy] INT NULL
+	FOREIGN KEY REFERENCES Users(ID), 
+    [InsertedAt] DATETIME2 NOT NULL
+)

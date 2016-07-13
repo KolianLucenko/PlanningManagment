@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="0d0c1970-3c83-40a6-a0e7-04cca3ff475f" ChangeDateTime="07/13/2016 12:18:37">
+    <Property Name="ElementName" Value="[dbo].[TaskStates].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TaskStates]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="a5c195ba-bac0-40c8-9948-8ebf1c7a2d5e" ChangeDateTime="07/13/2016 12:21:44">
+    <Property Name="ElementName" Value="[dbo].[TaskLabels].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TaskLabels]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="402751b6-f990-42f0-ae4f-ddef1295fdb8" ChangeDateTime="07/13/2016 12:24:03">
+    <Property Name="ElementName" Value="[dbo].[TaskGroups].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TaskGroups]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="97102230-1b3f-4c61-9165-99fbb5fe662c" ChangeDateTime="07/13/2016 12:26:13">
+    <Property Name="ElementName" Value="[dbo].[TaskPriorities].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TaskPriorities]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="c308fdc4-462c-4ba0-8dfb-d727e3c3c9b5" ChangeDateTime="07/13/2016 12:27:00">
+    <Property Name="ElementName" Value="[dbo].[Tasks].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Tasks]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="52a3de45-70fe-4988-beee-814d0a4a2a68" ChangeDateTime="07/13/2016 12:34:30">
+    <Property Name="ElementName" Value="[dbo].[TaskUserMaps].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[TaskUserMaps]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="94a4875a-6357-498a-ae28-9807c2186805" ChangeDateTime="07/13/2016 12:39:11">
+    <Property Name="ElementName" Value="[dbo].[Users].[IsActive]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Users]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="IsConfirm" />
+  </Operation>
+</Operations>
