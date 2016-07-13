@@ -1,0 +1,7 @@
+﻿CREATE TABLE [dbo].[TaskStates]
+(
+	[ID] INT NOT NULL PRIMARY KEY, 
+    [Name] VARCHAR(50) NOT NULL, 
+    [InsertedBy] INT NULL
+	FOREIGN KEY REFERENCES Users(ID)
+)
